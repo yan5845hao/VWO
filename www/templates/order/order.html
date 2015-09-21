@@ -39,16 +39,17 @@
                      font-size: 18px">480</span>
             </div>
         </div>
-        <div class="item"  style="padding:20px 20px;">
+        <div class="item"  style="padding:20px 40px 20px 20px;" ng-click="address()">
             <span style=" font-size: 16px; font-weight: bold;">收货人：大棉</span>
-            <span style="position: absolute; right:10px;  font-size: 16px; font-weight: bold;">14786694678</span>
+            <span style="position: absolute; right:40px;  font-size: 16px; font-weight: bold;">14786694678</span>
             <div>
                 <p style="padding:5px 0; color:#ccc;text-overflow: initial;
     white-space: initial;"><span style="font-weight:bold; color:#ffc900">[默认地址]</span>上海市长宁区延安西路528弄 创花园一期二号楼5楼</p>
             </div>
+            <a class="ion-angle-right" style="    position: absolute; top: 40px; right: 10px;"></a>
         </div>
     </ion-content>
     <ion-footer-bar class="bar-stable" style="padding:0;">
-        <button class="button button-full button-balanced" style="margin:0;">确认下单</button>
+        <button class="button button-full button-balanced" style="margin:0;" ng-click="order()">确认下单</button>
     </ion-footer-bar>
 </ion-view>

@@ -88,3 +88,19 @@
     font-weight: bold;
     border: 0;
 }
+
+.order-status{
+    margin: 10px 0 0 0;
+    background: #fff;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
+.order-status > a{
+    padding:10px 8px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: center;
+}
+.order-status > a.selectd{
+    color: #00bd5f;
+}

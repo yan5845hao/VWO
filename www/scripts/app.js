@@ -25,7 +25,21 @@ angular.module('VWO',
             })
             .state('header.order',{
                 url: "/order",
-                templateUrl: "templates/order/order.html"
+                templateUrl: "templates/order/order.html",
+                controller:"OrderController"
+            })
+            .state('header.orders',{
+                url: "/orders",
+                templateUrl: "templates/order/list.html"
+            })
+            .state('header.addressSave',{
+                url: "/address/save",
+                templateUrl: "templates/address/save.html"
+            })
+            .state('header.address',{
+                url: "/address",
+                templateUrl: "templates/address/list.html",
+                controller:"AddressController"
             })
             .state('main',{
                 url: "/main",
